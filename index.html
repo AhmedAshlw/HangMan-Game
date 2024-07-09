@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/app.js"></script>
     <title>HangMan Game</title>
 </head>
 <body>
     <div class="title">HangMan Game</div>
     <div class="broad">
-        <div class="pic">
-            <img src="gibbet.png" alt="hanging the man" class="hang">
+        <div class="func">
+            <div class="pic">
+                <img src="./img/gibbet.png" alt="hanging the man" class="hang">
+            </div>
+            <div class="buttons">
+                <button class="start">Start</button>
+                <button class="reset">Reset</button>
+            </div>
         </div>
         <div class="game">
-            <div class="word">Ahmed</div>
+            <div class="word"></div>
             <div class="key">
                 <div class="keyword" id="1"></div>
                 <div class="keyword" id="2"></div>

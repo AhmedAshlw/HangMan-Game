@@ -30,14 +30,38 @@ body{
     padding-right: 20px;
     border-radius: 20px;
 }
-
+.func{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 .pic{
     width: 450px;
     height: 450px;
 }
+.start{
+    background-color: #bbc1d6; 
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.reset{
+    background-color: #bbc1d6; 
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
 .hang{
     width: 450px;
     height: 450px;
+    /* position: absolute; */
 }
 
 .game{
@@ -108,7 +132,7 @@ body{
     margin-top: 20px;
 }
 .testword {
-    background-color: #bbc1d6; /* Green */
+    background-color: #bbc1d6; 
     color: black;
     padding: 15px 32px;
     text-align: center;
