@@ -1,3 +1,7 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body{
     margin: 0;
     display: flex;
@@ -48,6 +52,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    border-radius: 15px;
 }
 .reset{
     background-color: #bbc1d6; 
@@ -57,8 +62,9 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    border-radius: 15px;
 }
-.hang{
+#hang{
     width: 450px;
     height: 450px;
     /* position: absolute; */
@@ -80,6 +86,8 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .key{
     width: 600px;
@@ -135,19 +143,21 @@ body{
     background-color: #bbc1d6; 
     color: black;
     padding: 15px 32px;
+    width: 200px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    border-radius: 15px;
   }
 .win{
-    width: 400px;
+    width: 430px;
     height: 70px;
     background-color: #808080;
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 15px;
     color: white;
 }

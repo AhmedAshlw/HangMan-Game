@@ -2,7 +2,7 @@
 
 ### Game : HangMan
 
-![alt text](https://play-lh.googleusercontent.com/Eg8Swxv4VMMs-l8r0yzCDVX-Mr6RZiztBFieLfdjH9c5Apn4BoOJT4sMC5Vx5gNnfg)
+![alt text](./img/hangMan.png)
 
 ### About
 Hangman is a classic word guessing game. The objective is to guess the letters that make up a secret word before the entire hangman diagram is drawn.
