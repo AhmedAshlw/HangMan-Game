@@ -79,13 +79,14 @@ body{
     align-items: center;
 }
 .word{
-    width: 300px;
+    width: 500px;
     height: 60px;
     background-color: #808080;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: bold;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
