@@ -33,7 +33,6 @@
 7. If the player correctly guesses all the letters in the word before the hangman diagram is complete, the player should win the game.
 8. The game should provide a clear indication of the player's win or loss at the end of the game.
 9. The game should allow the player to start a new game after completing a round.
-10. The game should be responsive and work well on both desktop and mobile devices.
 
 ### Getting Started
 
@@ -58,26 +57,30 @@
 
 #### Game before any action
 
-![](./img/hangMan.png)
+![](./img/Before-Start.png)
 
 #### After clicking start
 
-![](./img/hangMan-start.png)
+![](./img/Start-Clicked.png)
+
+#### Clicking letters and displaying them
+
+![](./img/Click-Letters-and-Display.png)
+
+#### Win in game
+
+![](./img/Win-Game.png)
 
 #### Game over and man Hanged
 
-![](./img/hangMan-gameover.png)
-
-#### After clicking start reset
-
-![](./img/hangMan-reset.png)
+![](./img/Game-Over.png)
 
 ---
 
 ### Future Enhancements
 
-1.
-2.
-3.
+1. Make the game responsive
+2. Add counter of guesses
+3. Do the status message as a pop card that gives the status
 
 ---
