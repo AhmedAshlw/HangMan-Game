@@ -1,164 +1,179 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
+* {
+  font-family: "Courier New", Courier, monospace;
 }
 
-body{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    background-color: #F0FFF0;
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #f0fff0;
 }
-.title{
-    width: 500px;
-    height: 50px;
-    background-color: #808080;
-    color: white;
-    font-size: 40px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 50px;
+.title {
+  width: 500px;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
 }
-.broad{
-    width: 1240px;
-    height: 550px;
-    background-color: #ADD8E6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 20px;
+.broad {
+  width: 1240px;
+  height: 550px;
+  background-color: #add8e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
 }
-.func{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.func {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.pic{
-    width: 450px;
-    height: 450px;
+.pic {
+  width: 450px;
+  height: 450px;
 }
-.start{
-    background-color: #bbc1d6; 
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    border-radius: 15px;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  height: 80px;
 }
-.reset{
-    background-color: #bbc1d6; 
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    border-radius: 15px;
+.start {
+  background-color: #bbc1d6;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 15px;
+  width: 170px;
+  height: 80px;
 }
-#hang{
-    width: 450px;
-    height: 450px;
-    /* position: absolute; */
+.reset {
+  background-color: #bbc1d6;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 15px;
+  width: 170px;
+  height: 80px;
+}
+#hang {
+  width: 450px;
+  height: 450px;
+  /* position: absolute; */
 }
 
-.game{
-    width: 700px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.game {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.word{
-    width: 500px;
-    height: 60px;
-    background-color: #808080;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: bold;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+.word {
+  width: 500px;
+  height: 60px;
+  background-color: #808080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
-.key{
-    width: 600px;
-    height: 180px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+.key {
+  min-width: 420px;
+  max-width: 600px;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.keyword{
-    width: 80px;
-    height: 80px;
-    background-color: #DCDCDC;
-    border-radius: 20px;
-    color: black;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.keyword {
+  width: 80px;
+  height: 80px;
+  background-color: #dcdcdc;
+  border: 1px solid;
+  border-radius: 20px;
+  color: black;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.letters{
-    width: 650px;
-    height: 280px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    cursor:pointer;
+.letters {
+  width: 650px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
 }
-.letter{
-    width: 70px;
-    height: 70px;
-    background-color: #808080;
-    border-radius: 20px;
-    color: white;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+button {
+  width: 70px;
+  height: 70px;
+  background-color: #808080;
+  border-radius: 20px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.test{
-    width: 650px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 20px;
+button[disabled] {
+  opacity: 0.5;
+}
+.test {
+  width: 650px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
 }
 .testword {
-    background-color: #bbc1d6; 
-    color: black;
-    padding: 15px 32px;
-    width: 200px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    border-radius: 15px;
-  }
-.win{
-    width: 430px;
-    height: 70px;
-    background-color: #808080;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-size: 35px;
-    padding-left: 15px;
-    color: white;
+  background-color: #bbc1d6;
+  color: black;
+  padding: 15px 32px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 15px;
+}
+.win {
+  width: 500px;
+  height: 70px;
+  background-color: #808080;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 35px;
+  padding-left: 15px;
+  color: white;
 }

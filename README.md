@@ -5,13 +5,25 @@
 ### By: Ahmed Darwish
 
 #### [GitHub](https://github.com/AhmedAslw) | [LinkedIn](https://www.linkedin.com/in/ahmed-darwish-056b3a235/)
-***
 
-### ***Description***
+---
+
+### Game Description
+
 #### Hangman is a classic word guessing game. The objective is to guess the letters that make up a secret word before the entire hangman diagram is drawn.
-***
+
+---
+
+### Technologies Used
+
+- HTML
+- CSS
+- JAVASCRIPT
+
+---
 
 ### User Story
+
 1. The game should select a random word from a predefined word list.
 2. The game should display the word as a series of underscores, one for each letter in the word.
 3. The player should be able to guess letters by clicking on the letters of the alphabet provided.
@@ -23,7 +35,8 @@
 9. The game should allow the player to start a new game after completing a round.
 10. The game should be responsive and work well on both desktop and mobile devices.
 
-### Main Functionalities
+### Getting Started
+
 ```
 1. The game selects a random word and displays it as a series of underscores, one for each letter.
 2. The player clicks on letters from the alphabet to guess the word.
@@ -35,39 +48,36 @@
 6. After each game, the player can start a new game.
 ```
 
-### Implementaion
+> ### Game Repository: [here](https://github.com/AhmedAshlw/HangMan-Game)
 
-1 . Functions
+> ### Deployed Game: [here](https://AhmedAshlw.github.io/HangMan-Game/)
 
-```
-A . init()     { //Initiation of the game ..reset game }
-B . RandWord() { //Start the game }
-```
-2 . Listeners
+---
 
-```
-A . button     //Letters clicked
-B . testword   //Test button
-C . start      //Start the game
-D . reset      //Restart the game
-```
-***
+### **_Screenshots_**
 
-### ***Screenshots***
+#### Game before any action
 
-##### Game before any action
 ![](./img/hangMan.png)
 
-##### After clicking start
+#### After clicking start
+
 ![](./img/hangMan-start.png)
 
-##### Game over and man Hanged 
+#### Game over and man Hanged
+
 ![](./img/hangMan-gameover.png)
 
-##### After clicking start reset
+#### After clicking start reset
+
 ![](./img/hangMan-reset.png)
-***
 
+---
 
+### Future Enhancements
 
+1.
+2.
+3.
 
+---
